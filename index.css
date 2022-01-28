@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Helvetica, sans-serif;
+}
+
+#navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
+    padding: 1em 2em;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#navbar img {
+    height: 1.8em;
+    margin-right: 2em;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar .left {
+    display: flex;
+    align-items: center;
+}
+
+#navbar .left a {
+    margin: 0 0.7em;
+}
