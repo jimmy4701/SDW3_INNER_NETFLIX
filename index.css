@@ -142,4 +142,15 @@ button svg {
 .movie:hover {
     transform: scale(1.8);
     z-index: 10;
+    overflow: visible;
+}
+
+.movie .infos {
+    background-color: rgb(24, 24, 24);
+    color: white;
+    display: none;
+}
+
+.movie:hover .infos {
+    display: block;
 }
