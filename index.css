@@ -3,6 +3,8 @@ body {
     padding: 0;
     overflow-x: hidden;
     font-family: Helvetica, sans-serif;
+    background-color: black;
+    padding-bottom: 30em;
 }
 
 #navbar {
@@ -111,4 +113,33 @@ button svg {
 
 .btn-dark svg {
     fill: white;
+}
+
+/* =============== MOVIES CATEGORY DESIGN ================ */
+.movies-category {
+    color: white;
+    padding-left: 4em;
+}
+
+.movies-displayer {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 0.5em;
+}
+
+
+.movie {
+    border-radius: 0.2em;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.movie img {
+    height: 100%;
+}
+
+.movie:hover {
+    transform: scale(1.8);
+    z-index: 10;
 }
