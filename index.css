@@ -38,3 +38,77 @@ body {
 #navbar .left a {
     margin: 0 0.7em;
 }
+
+/* ============ HEADER DESIGN ==============*/
+
+.header {
+    height: 90vh;
+    width: 100vw;
+
+    background-image: url('https://occ-0-3004-56.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABZnMbovvTIs_AdSi4cEqSxA8cWbX_tSHMKxCQtA50YFBJTjJEYB9awY5Z8p8firlwdhXdwknczynk0hafk3Umk6w7a0u.webp?r=486');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-left: 4em;
+}
+
+.header img {
+    width: 50em;
+}
+
+.header p {
+    max-width: 30em;
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+}
+
+.buttons-container button {
+    margin: 0 1em 0 0 ;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 0.2em;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(189, 187, 187);
+}
+
+button svg {
+    height: 1.3em;
+    width: 1.3em;
+    margin-right: 0.5em;
+}
+
+.btn-dark {
+    background-color: rgba(141, 141, 141, 0.698);
+    color: white;
+}
+
+.btn-dark:hover {
+    background-color: rgba(100, 100, 100, 0.698);
+}
+
+.btn-dark svg {
+    fill: white;
+}
