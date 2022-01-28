@@ -129,6 +129,7 @@ button svg {
 
 
 .movie {
+    position: relative;
     border-radius: 0.2em;
     overflow: hidden;
     cursor: pointer;
@@ -139,18 +140,26 @@ button svg {
     height: 100%;
 }
 
-.movie:hover {
-    transform: scale(1.8);
-    z-index: 10;
-    overflow: visible;
-}
-
 .movie .infos {
     background-color: rgb(24, 24, 24);
     color: white;
     display: none;
 }
 
-.movie:hover .infos {
-    display: block;
+.movie .mini-logo {
+    height: 2em;
+    position: absolute;
+    top: 0.3em;
+    left: 0.3em;
+}
+
+.movie .top {
+    position: absolute;
+    background-color: red;
+    color: white;
+    top: 0;
+    right: 0;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.2em;
 }
